@@ -19,7 +19,7 @@ Install via pip:
 
 .. code-block:: bash
 
-    $ pip install --upgrade let3
+    $ python -m pip install --upgrade let3
 
 Done.
 
