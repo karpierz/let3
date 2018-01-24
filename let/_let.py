@@ -1,4 +1,7 @@
-# coding: utf-8
+# Copyright (c) 2016 Taylor Marks
+# Copyright (c) 2016-2018 Adam Karpierz
+# Licensed under the MIT License
+# http://opensource.org/licenses/MIT
 
 from __future__ import absolute_import
 
@@ -6,10 +9,10 @@ import sys
 
 __all__ = ('let',)
 
+
 def let(**name_value_pair):
 
-    """\
-    Takes in a single name = value pair.
+    """Takes in a single name = value pair.
     The value is assigned to the name and returned.
     This is useful in if statements, while loops, and anyplace else
     where you want to both assign and use a value.
@@ -22,8 +25,8 @@ def let(**name_value_pair):
         if name:
             ...
 
-    - Or worse, using that long identifier in the condition and then repeatedly
-    in the body - you can use this:
+    - Or worse, using that long identifier in the condition and then
+    repeatedly in the body - you can use this:
 
         if let(name = longInstanceName.longAttributeName):
             ...
@@ -67,5 +70,3 @@ def let(**name_value_pair):
 
     frame.f_globals[name] = value
     return value
-
-# eof

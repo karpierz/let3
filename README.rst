@@ -90,9 +90,12 @@ Installation prerequisites
 License
 =======
 
+  | Copyright (c) 2016 Taylor Marks
+  | Copyright (c) 2016-2018 Adam Karpierz
+  |
   | Licensed under the MIT License
-  | https://opensource.org/licenses/MIT
-  | Please refer to the bundled LICENSE file.
+  | http://opensource.org/licenses/MIT
+  | Please refer to the accompanying LICENSE file.
 
 Authors
 =======

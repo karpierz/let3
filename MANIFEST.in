@@ -1,6 +1,7 @@
 include README.rst
 include CHANGES.rst
 include LICENSE
+include tox.ini
 
 prune docs
 prune docs/_build
