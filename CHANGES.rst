@@ -1,9 +1,10 @@
 Changelog
 =========
 
-1.0.5 (2018-01-27)
+1.0.6 (2018-01-28)
 ------------------
   - Fix a bug and inconsistencies in tox.ini
+  - Update of README.rst.
 
 1.0.3 (2018-01-24)
 ------------------
