@@ -77,7 +77,7 @@ ability in other languages. A few examples:
 Installation prerequisites
 ==========================
 
-+ Python 2.6 or higher
++ Python 2.7 or higher
 
   * http://www.python.org/
   * 2.7 and 3.4 are primary test environments.
@@ -122,6 +122,6 @@ Authors
 =======
 
 * Taylor Marks <taylor@marksfam.com>
-* Adam Karpierz <python@python.pl>
+* Adam Karpierz <adam@karpierz.net>
 
 .. _let: http://pypi.python.org/pypi/let/
