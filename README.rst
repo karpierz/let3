@@ -67,7 +67,7 @@ ability in other languages. A few examples:
 Installation
 ============
 
-+ Python 2.7 or Python 3.4 or later
++ Python 3.4 or later
 
   * http://www.python.org/
   * 2.7 and 3.7 are primary test environments.

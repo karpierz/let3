@@ -3,8 +3,6 @@
 # Licensed under the MIT License
 # http://opensource.org/licenses/MIT
 
-from __future__ import absolute_import
-
 import sys
 
 __all__ = ('let',)

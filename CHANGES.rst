@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.11 (2019-05-22)
+-------------------
+- Drop support for Python 2.
+
 1.0.10 (2019-05-21)
 -------------------
 - Update required setuptools version.

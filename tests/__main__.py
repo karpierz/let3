@@ -2,8 +2,6 @@
 # Licensed under the zlib/libpng License
 # http://opensource.org/licenses/zlib/
 
-from __future__ import absolute_import
-
 import unittest, sys
 from . import test_dir, top_dir
 tests = unittest.defaultTestLoader.discover(start_dir=test_dir,
