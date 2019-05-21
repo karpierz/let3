@@ -13,16 +13,6 @@ Overview
   Overview below is a copy from the original let_ website (with only the
   necessary changes regarding let3).
 
-Installation
-------------
-Install via pip:
-
-.. code-block:: bash
-
-    $ python -m pip install --upgrade let3
-
-Done.
-
 Quick Start
 -----------
 Once you've installed, you can really quickly verified that it works with just this:
@@ -74,18 +64,22 @@ ability in other languages. A few examples:
     if let(count = len(nameValuePair)) != 1:
         raise Exception('Bad amount: {}'.format(count))
 
-Installation prerequisites
-==========================
+Installation
+============
 
-+ Python 2.7 or higher
++ Python 2.7 or Python 3.4 or later
 
   * http://www.python.org/
-  * 2.7 and 3.4 are primary test environments.
+  * 2.7 and 3.7 are primary test environments.
 
 + pip and setuptools
 
-  * http://pypi.python.org/pypi/pip
-  * http://pypi.python.org/pypi/setuptools
+  * http://pypi.org/project/pip/
+  * http://pypi.org/project/setuptools/
+
+To install run::
+
+    python -m pip install --upgrade let3
 
 Development
 ===========
@@ -112,7 +106,7 @@ License
 =======
 
   | Copyright (c) 2016 Taylor Marks
-  | Copyright (c) 2016-2018 Adam Karpierz
+  | Copyright (c) 2016-2019 Adam Karpierz
   |
   | Licensed under the MIT License
   | http://opensource.org/licenses/MIT
@@ -124,4 +118,4 @@ Authors
 * Taylor Marks <taylor@marksfam.com>
 * Adam Karpierz <adam@karpierz.net>
 
-.. _let: http://pypi.python.org/pypi/let/
+.. _let: http://pypi.org/project/let/

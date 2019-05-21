@@ -1,6 +1,6 @@
-# Copyright (c) 2016-2018 Adam Karpierz
-# Licensed under the MIT License
-# http://opensource.org/licenses/MIT
+# Copyright (c) 2016-2019 Adam Karpierz
+# Licensed under the zlib/libpng License
+# http://opensource.org/licenses/zlib/
 
 from __future__ import absolute_import
 
@@ -8,7 +8,7 @@ from os import path
 from setuptools import setup
 
 top_dir = path.dirname(path.abspath(__file__))
-with open(path.join(top_dir, "let", "__about__.py")) as f:
+with open(path.join(top_dir, "src", "let", "__about__.py")) as f:
     class about: exec(f.read(), None)
 
 setup(

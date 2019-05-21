@@ -3,10 +3,11 @@ include CHANGES.rst
 include LICENSE
 include tox.ini
 
-prune docs
+graft docs
 prune docs/_build
-prune docs/_templates
 
-prune tests
+graft src
+
+graft tests
 
 global-exclude *.py[co] __pycache__
