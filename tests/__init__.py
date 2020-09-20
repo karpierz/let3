@@ -1,6 +1,6 @@
-# Copyright (c) 2016-2019 Adam Karpierz
-# Licensed under the zlib/libpng License
-# http://opensource.org/licenses/zlib/
+# Copyright (c) 2016-2020 Adam Karpierz
+# Licensed under the MIT License
+# https://opensource.org/licenses/MIT
 
 __all__ = ('top_dir', 'test_dir')
 

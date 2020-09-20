@@ -1,7 +1,7 @@
 # Copyright (c) 2016 Taylor Marks
-# Copyright (c) 2016-2019 Adam Karpierz
+# Copyright (c) 2016-2020 Adam Karpierz
 # Licensed under the MIT License
-# http://opensource.org/licenses/MIT
+# https://opensource.org/licenses/MIT
 
 import sys
 
@@ -9,7 +9,6 @@ __all__ = ('let',)
 
 
 def let(**name_value_pair):
-
     """Takes in a single name = value pair.
     The value is assigned to the name and returned.
     This is useful in if statements, while loops, and anyplace else
@@ -44,24 +43,24 @@ def let(**name_value_pair):
     Instead of:
 
         if len(sequence) != 1:
-            raise Exception('Bad amount: {0}'.format(len(sequence)))
+            raise Exception('Bad amount: {}'.format(len(sequence)))
 
     You could use:
 
         if let(count = len(sequence)) != 1:
-            raise Exception('Bad amount: {0}'.format(count))
+            raise Exception('Bad amount: {}'.format(count))
     """
 
     count = len(name_value_pair)
     if count != 1:
-        raise TypeError("let() takes exactly one key = value pair ({0} given)"
+        raise TypeError("let() takes exactly one key = value pair ({} given)"
                         .format(count))
 
     frame = sys._getframe(1)
 
     name, value = next(iter(name_value_pair.items()))
     if name in frame.f_locals:
-        raise Exception("{0} has already been locally assigned. "
+        raise Exception("{} has already been locally assigned. "
                         "Due to optimizations in the Python interpreter, "
                         "it is not possible to write over it using let(). "
                         "Sorry!".format(name))

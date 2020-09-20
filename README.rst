@@ -1,17 +1,17 @@
 let3
 ====
 
-*Assign variables wherever, whenever you want.*
+Assign variables wherever, whenever you want.
 
 Overview
 ========
 
-  *let3* is a strict fork of Taylor Marks's let_ package with a fix allowing
-  to work with Python3 or higher and with a little code reformatting and
-  minor improvements.
+  |package_bold| is a strict fork of Taylor Marks's let_ package with a fix
+  allowing to work with Python3 or higher and with a little code reformatting
+  and minor improvements.
 
-  Overview below is a copy from the original let_ website (with only the
-  necessary changes regarding let3).
+  Overview below is a copy from the original let_ website (with only the necessary
+  changes regarding |package|).
 
 Quick Start
 -----------
@@ -67,49 +67,63 @@ ability in other languages. A few examples:
 Installation
 ============
 
-+ Python 3.4 or later
+Prerequisites:
 
-  * http://www.python.org/
-  * 2.7 and 3.7 are primary test environments.
++ Python 3.5 or higher
+
+  * https://www.python.org/
+  * 3.7 is a primary test environment.
 
 + pip and setuptools
 
-  * http://pypi.org/project/pip/
-  * http://pypi.org/project/setuptools/
+  * https://pypi.org/project/pip/
+  * https://pypi.org/project/setuptools/
 
-To install run::
+To install run:
 
-    python -m pip install --upgrade let3
+.. parsed-literal::
+
+    python -m pip install --upgrade |package|
 
 Development
 ===========
-
-Visit `development page <https://github.com/karpierz/let3>`__
-
-Installation from sources:
-
-Clone the `sources <https://github.com/karpierz/let3>`__ and run::
-
-    python -m pip install ./let3
-
-or on development mode::
-
-    python -m pip install --editable ./let3
 
 Prerequisites:
 
 + Development is strictly based on *tox*. To install it run::
 
-    python -m pip install tox
+    python -m pip install --upgrade tox
+
+Visit `development page`_.
+
+Installation from sources:
+
+clone the sources:
+
+.. parsed-literal::
+
+    git clone |respository| |package|
+
+and run:
+
+.. parsed-literal::
+
+    python -m pip install ./|package|
+
+or on development mode:
+
+.. parsed-literal::
+
+    python -m pip install --editable ./|package|
 
 License
 =======
 
   | Copyright (c) 2016 Taylor Marks
-  | Copyright (c) 2016-2019 Adam Karpierz
+  | Copyright (c) 2016-2020 Adam Karpierz
   |
   | Licensed under the MIT License
-  | http://opensource.org/licenses/MIT
+  | https://opensource.org/licenses/MIT
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -118,4 +132,10 @@ Authors
 * Taylor Marks <taylor@marksfam.com>
 * Adam Karpierz <adam@karpierz.net>
 
-.. _let: http://pypi.org/project/let/
+.. |package| replace:: let3
+.. |package_bold| replace:: **let3**
+.. |respository| replace:: https://github.com/karpierz/let3.git
+.. _PyPI record: https://pypi.org/project/let3/
+.. _development page: https://github.com/karpierz/let3/
+
+.. _let: https://pypi.org/project/let/
