@@ -50,7 +50,6 @@ def let(**name_value_pair):
         if let(count = len(sequence)) != 1:
             raise Exception('Bad amount: {}'.format(count))
     """
-
     count = len(name_value_pair)
     if count != 1:
         raise TypeError("let() takes exactly one key = value pair ({} given)"

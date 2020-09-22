@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.13 (2020-09-22)
+-------------------
+- Setup: fix an improper dependencies versions.
+
 1.0.12 (2020-09-20)
 -------------------
 - Add support for Python 3.8 and 3.9.

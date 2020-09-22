@@ -2,5 +2,5 @@
 # Licensed under the MIT License
 # https://opensource.org/licenses/MIT
 
-from .__about__ import * ; del __about__
-from ._let import *
+from .__about__ import * ; del __about__  # noqa
+from ._let      import * ; del _let       # noqa
