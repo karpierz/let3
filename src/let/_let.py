@@ -3,9 +3,9 @@
 # Licensed under the MIT License
 # https://opensource.org/licenses/MIT
 
-import sys
-
 __all__ = ('let',)
+
+import sys
 
 
 def let(**name_value_pair):
