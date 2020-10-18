@@ -1,6 +1,7 @@
 let3 documentation
 ==================
 
+.. _readme:
 .. include:: README.rst
 
 Changes
