@@ -12,6 +12,8 @@ and minor improvements.
 
 `PyPI record`_.
 
+`Documentation`_.
+
 Overview below is a copy from the original let_ website (with only the necessary
 changes regarding |package|).
 
@@ -122,7 +124,7 @@ License
 =======
 
   | Copyright (c) 2016 Taylor Marks
-  | Copyright (c) 2016-2020 Adam Karpierz
+  | Copyright (c) 2016-2021 Adam Karpierz
   | Licensed under the MIT License
   | https://opensource.org/licenses/MIT
   | Please refer to the accompanying LICENSE file.
@@ -136,6 +138,7 @@ Authors
 .. |package| replace:: let3
 .. |package_bold| replace:: **let3**
 .. |respository| replace:: https://github.com/karpierz/let3.git
-.. _development page: https://github.com/karpierz/let3/
+.. _development page: https://github.com/karpierz/let3
 .. _PyPI record: https://pypi.org/project/let3/
+.. _Documentation: https://let3.readthedocs.io/
 .. _let: https://pypi.org/project/let/

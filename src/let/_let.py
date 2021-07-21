@@ -1,5 +1,5 @@
 # Copyright (c) 2016 Taylor Marks
-# Copyright (c) 2016-2020 Adam Karpierz
+# Copyright (c) 2016-2021 Adam Karpierz
 # Licensed under the MIT License
 # https://opensource.org/licenses/MIT
 
@@ -56,13 +56,15 @@ def let(**name_value_pair):
                         .format(count))
 
     frame = sys._getframe(1)
+    flocals  = frame.f_locals
+    fglobals = frame.f_globals
 
     name, value = next(iter(name_value_pair.items()))
-    if name in frame.f_locals:
+    if flocals is not fglobals and name in flocals:
         raise Exception("{} has already been locally assigned. "
                         "Due to optimizations in the Python interpreter, "
                         "it is not possible to write over it using let(). "
                         "Sorry!".format(name))
 
-    frame.f_globals[name] = value
+    fglobals[name] = value
     return value

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.16 (2021-07-19)
+-------------------
+- Bugfix: 'let' works now also on highest (e.g. module) level.
+- Setup general update and improvement.
+
 1.0.15 (2020-10-17)
 -------------------
 - Add support for Python 3.8 and 3.9.
