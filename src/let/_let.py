@@ -43,17 +43,17 @@ def let(**name_value_pair):
     Instead of:
 
         if len(sequence) != 1:
-            raise Exception('Bad amount: {}'.format(len(sequence)))
+            raise Exception(f"Bad amount: {len(sequence)}")
 
     You could use:
 
         if let(count = len(sequence)) != 1:
-            raise Exception('Bad amount: {}'.format(count))
+            raise Exception(f"Bad amount: {count}")
     """
     count = len(name_value_pair)
     if count != 1:
-        raise TypeError("let() takes exactly one key = value pair ({} given)"
-                        .format(count))
+        raise TypeError("let() takes exactly one key = value pair "
+                        f"({count} given)")
 
     frame = sys._getframe(1)
     flocals  = frame.f_locals
@@ -61,10 +61,10 @@ def let(**name_value_pair):
 
     name, value = next(iter(name_value_pair.items()))
     if flocals is not fglobals and name in flocals:
-        raise Exception("{} has already been locally assigned. "
+        raise Exception(f"{name} has already been locally assigned. "
                         "Due to optimizations in the Python interpreter, "
                         "it is not possible to write over it using let(). "
-                        "Sorry!".format(name))
+                        "Sorry!")
 
     fglobals[name] = value
     return value

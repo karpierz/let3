@@ -24,7 +24,7 @@ Once you've installed, you can really quickly verified that it works with just t
 .. code-block:: python
 
     >>> from let import let
-    >>> if let(count = len('Hello World!')):
+    >>> if let(count = len("Hello World!")):
     ...     print(count)
     12
 
@@ -66,7 +66,7 @@ ability in other languages. A few examples:
         ...
 
     if let(count = len(nameValuePair)) != 1:
-        raise Exception('Bad amount: {}'.format(count))
+        raise Exception(f"Bad amount: {count}")
 
 Installation
 ============

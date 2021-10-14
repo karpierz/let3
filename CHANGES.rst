@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.17 (2021-10-14)
+-------------------
+- Setup update.
+
 1.0.16 (2021-07-19)
 -------------------
 - Bugfix: 'let' works now also on highest (e.g. module) level.
