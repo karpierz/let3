@@ -73,7 +73,7 @@ Installation
 
 Prerequisites:
 
-+ Python 3.6 or higher
++ Python 3.7 or higher
 
   * https://www.python.org/
   * 3.7 is a primary test environment.
@@ -124,7 +124,7 @@ License
 =======
 
   | Copyright (c) 2016 Taylor Marks
-  | Copyright (c) 2016-2021 Adam Karpierz
+  | Copyright (c) 2016-2022 Adam Karpierz
   | Licensed under the MIT License
   | https://opensource.org/licenses/MIT
   | Please refer to the accompanying LICENSE file.
