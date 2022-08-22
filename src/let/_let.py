@@ -10,11 +10,12 @@ import sys
 
 def let(**name_value_pair):
     """Takes in a single name = value pair.
+
     The value is assigned to the name and returned.
     This is useful in if statements, while loops, and anyplace else
     where you want to both assign and use a value.
 
-    Examples:
+    Examples.
 
     Instead of:
 
