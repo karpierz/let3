@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.21 (2022-10-18)
+-------------------
+- Tox configuration has been moved to pyproject.toml
+
 1.0.20 (2022-08-22)
 -------------------
 - Add support for Python 3.10 and 3.11
