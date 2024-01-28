@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.22 (2024-01-26)
+1.0.23 (2024-01-26)
 -------------------
 - Setup update (now based on tox >= 4.0).
 - Add support for Python 3.12
