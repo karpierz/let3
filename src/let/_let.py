@@ -1,7 +1,7 @@
 # Copyright (c) 2016 Taylor Marks
-# Copyright (c) 2016-2022 Adam Karpierz
+# Copyright (c) 2016 Adam Karpierz
 # Licensed under the MIT License
-# https://opensource.org/licenses/MIT
+# https://opensource.org/license/mit
 
 __all__ = ('let',)
 

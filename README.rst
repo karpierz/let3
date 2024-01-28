@@ -76,7 +76,6 @@ Prerequisites:
 + Python 3.7 or higher
 
   * https://www.python.org/
-  * 3.7 is a primary test environment.
 
 + pip and setuptools
 
@@ -98,7 +97,7 @@ Prerequisites:
 
     python -m pip install --upgrade tox
 
-Visit `development page`_.
+Visit `Development page`_.
 
 Installation from sources:
 
@@ -124,9 +123,9 @@ License
 =======
 
   | Copyright (c) 2016 Taylor Marks
-  | Copyright (c) 2016-2022 Adam Karpierz
+  | Copyright (c) 2016-2024 Adam Karpierz
   | Licensed under the MIT License
-  | https://opensource.org/licenses/MIT
+  | https://opensource.org/license/mit
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -138,7 +137,7 @@ Authors
 .. |package| replace:: let3
 .. |package_bold| replace:: **let3**
 .. |respository| replace:: https://github.com/karpierz/let3.git
-.. _development page: https://github.com/karpierz/let3
+.. _Development page: https://github.com/karpierz/let3
 .. _PyPI record: https://pypi.org/project/let3/
 .. _Documentation: https://let3.readthedocs.io/
 .. _let: https://pypi.org/project/let/
