@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.25 (2024-08-13)
+-------------------
+- Add support for Python 3.13
+- Setup (dependencies) update.
+
 1.0.24 (2024-01-30)
 -------------------
 - Setup update (now based on tox >= 4.0).

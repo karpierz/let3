@@ -1,6 +1,5 @@
 # Copyright (c) 2016 Adam Karpierz
-# Licensed under the MIT License
-# https://opensource.org/license/mit
+# SPDX-License-Identifier: MIT
 
 __all__ = ('top_dir', 'test_dir')
 
