@@ -73,7 +73,7 @@ Installation
 
 Prerequisites:
 
-+ Python 3.8 or higher
++ Python 3.9 or higher
 
   * https://www.python.org/
 
@@ -122,8 +122,8 @@ or on development mode:
 License
 =======
 
+  | |copyright|
   | Copyright (c) 2016 Taylor Marks
-  | Copyright (c) 2016-2024 Adam Karpierz
   | Licensed under the MIT License
   | https://opensource.org/license/mit
   | Please refer to the accompanying LICENSE file.
@@ -136,6 +136,7 @@ Authors
 
 .. |package| replace:: let3
 .. |package_bold| replace:: **let3**
+.. |copyright| replace:: Copyright (c) 2016-2024 Adam Karpierz
 .. |respository| replace:: https://github.com/karpierz/let3.git
 .. _Development page: https://github.com/karpierz/let3
 .. _PyPI record: https://pypi.org/project/let3/
