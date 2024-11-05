@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.1.2 (2024-10-30)
+------------------
+- Setup (dependencies) update.
+
 1.1.1 (2024-10-09)
 ------------------
 - Setup (dependencies) update.
