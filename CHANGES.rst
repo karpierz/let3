@@ -1,6 +1,15 @@
 Changelog
 =========
 
+1.1.3 (2024-12-13)
+------------------
+- Source distribution (\*.tar.gz now) is compliant with PEP-0625.
+- Add unittests.
+- 100% code linting.
+- 100% code coverage.
+- Tox configuration is now in native (toml) format.
+- Setup (dependencies) update.
+
 1.1.2 (2024-10-30)
 ------------------
 - Setup (dependencies) update.
@@ -29,10 +38,6 @@ Changelog
 - Copyright year update.
 - Tox configuration has been moved to pyproject.toml
 - Cleanup.
-
-1.0.21 (2022-10-18)
--------------------
-- Tox configuration has been moved to pyproject.toml
 
 1.0.20 (2022-08-22)
 -------------------
