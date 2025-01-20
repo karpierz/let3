@@ -136,7 +136,7 @@ Authors
 
 .. |package| replace:: let3
 .. |package_bold| replace:: **let3**
-.. |copyright| replace:: Copyright (c) 2016-2024 Adam Karpierz
+.. |copyright| replace:: Copyright (c) 2016-2025 Adam Karpierz
 .. |respository| replace:: https://github.com/karpierz/let3.git
 .. _Development page: https://github.com/karpierz/let3
 .. _PyPI record: https://pypi.org/project/let3/
