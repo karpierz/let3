@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.1.6 (2025-03-20)
+------------------
+- Add support for PyPy 3.11
+- Drop support for PyPy 3.9
+- Setup (dependencies) update.
+
 1.1.5 (2025-02-14)
 ------------------
 - Setup (dependencies) update.
