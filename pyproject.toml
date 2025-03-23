@@ -7,7 +7,7 @@ requires = ['setuptools>=77.0.3', 'packaging>=24.2.0', 'tox>=4.24.2']
 
 [project]
 name        = 'let3'
-version     = '1.1.6'
+version     = '1.1.7'
 description = 'Assign variables wherever, whenever you want.'
 urls.Homepage      = 'https://pypi.org/project/let3/'
 urls.Documentation = 'https://let3.readthedocs.io/'
@@ -219,7 +219,7 @@ commands = [
 ]
 deps = [
     {replace='ref',of=['tool','tox','env_run_base','deps'],extend=true},
-    'coverage>=7.7.0',
+    'coverage>=7.7.1',
     'covdefaults>=2.3.0',
     'diff-cover>=9.2.0',
 ]
