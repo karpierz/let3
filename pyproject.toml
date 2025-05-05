@@ -3,18 +3,12 @@
 
 [build-system]
 build-backend = 'setuptools.build_meta'
-requires = ['setuptools>=80.0.0', 'packaging>=25.0.0', 'tox>=4.25.0']
+requires = ['setuptools>=80.3.1', 'packaging>=25.0.0', 'tox>=4.25.0']
 
 [project]
 name        = 'let3'
-version     = '1.2.0'
+version     = '1.2.1'
 description = 'Assign variables wherever, whenever you want.'
-urls.Homepage      = 'https://pypi.org/project/let3/'
-urls.Documentation = 'https://let3.readthedocs.io/'
-urls.Download      = 'https://pypi.org/project/let3/'
-urls.Source        = 'https://github.com/karpierz/let3'
-urls.Issues        = 'https://github.com/karpierz/let3/issues'
-license = { text = 'MIT License ; https://opensource.org/license/mit' }
 authors = [
     { name  = 'Taylor Marks, Adam Karpierz' },
     { email = 'adam@karpierz.net' },
@@ -23,12 +17,18 @@ maintainers = [
     { name  = 'Adam Karpierz' },
     { email = 'adam@karpierz.net' },
 ]
+license = 'MIT'
+license-files = ['LICENSE']
+urls.Homepage      = 'https://pypi.org/project/let3/'
+urls.Documentation = 'https://let3.readthedocs.io/'
+urls.Download      = 'https://pypi.org/project/let3/'
+urls.Source        = 'https://github.com/karpierz/let3'
+urls.Issues        = 'https://github.com/karpierz/let3/issues'
 keywords = ['let', 'let3', 'assign', 'assignment', 'var', 'variable',
             'conditional', 'if', 'while']
 classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent',
     'Natural Language :: Polish',
     'Programming Language :: Python',
@@ -46,8 +46,8 @@ classifiers = [
 requires-python = '>=3.10.0,<4.0.0'
 dependencies = [
     # mandatory
-    'setuptools>=80.0.0',
-    'pkg-about>=1.3.0',
+    'setuptools>=80.3.1',
+    'pkg-about>=1.3.3',
     # others
 ]
 dynamic = ['readme']
@@ -80,7 +80,6 @@ optional-dependencies.'test' = [
 readme = { file = ['README.rst', 'CHANGES.rst'], content-type = 'text/x-rst; charset=UTF-8' }
 
 [tool.setuptools]
-license-files = ['LICENSE']
 include-package-data = true
 platforms = ['any']
 zip-safe = true
@@ -162,7 +161,7 @@ skip_missing_interpreters = true
 requires = [
     {replace='ref',of=['tool','tox','_','base','deps'],extend=true},
     'virtualenv>=20.30.0',
-    'tox-backtick>=0.6.0',
+    'tox-backtick>=0.6.1',
 ]
 [tool.tox.labels]
 py = ['py310','py311','py312','py313','py314', 'pypy310','pypy311']
@@ -176,8 +175,8 @@ deploy = [{replace='ref',of=['tool','tox','labels','build'],extend=true}, 'publi
 [tool.tox._.base]
 base_python = ['python3.13']
 deps = [
-    'pip>=25.1.0',
-    'setuptools>=80.0.0',
+    'pip>=25.1.1',
+    'setuptools>=80.3.1',
 ]
 package_subdir = 'let'
 

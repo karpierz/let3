@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.2.1 (2025-05-04)
+------------------
+- Setup (dependencies) update.
+
 1.2.0 (2025-04-28)
 ------------------
 - Add support for Python 3.14
