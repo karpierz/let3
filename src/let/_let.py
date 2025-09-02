@@ -4,10 +4,11 @@
 
 __all__ = ('let',)
 
+from typing import Any
 import sys
 
 
-def let(**name_value_pair):
+def let(**name_value_pair: dict[str, Any]) -> Any:
     """Takes in a single name = value pair.
 
     The value is assigned to the name and returned.

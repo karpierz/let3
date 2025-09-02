@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.4.0 (2025-09-01)
+------------------
+- Making the package typed.
+- Setup (dependencies) update.
+
 1.2.3 (2025-07-07)
 ------------------
 - Setup (dependencies) update.
