@@ -21,12 +21,12 @@ Quick Start
 -----------
 Once you've installed, you can really quickly verified that it works with just this:
 
-.. code-block:: python
+.. code:: python
 
-    >>> from let import let
-    >>> if let(count = len("Hello World!")):
-    ...     print(count)
-    12
+  >>> from let import let
+  >>> if let(count = len("Hello World!")):
+  ...     print(count)
+  12
 
 Documentation
 -------------
@@ -37,17 +37,17 @@ both assign the value, and check whether a condition is met.
 This ability doesn't exist in Python, because of the thought that when people
 write something like:
 
-.. code-block:: python
+.. code:: python
 
-    if row = db.fetch_results():
-        ...
+  if row = db.fetch_results():
+      ...
 
 They may have actually meant:
 
-.. code-block:: python
+.. code:: python
 
-    if row == db.fetch_results():
-        ...
+  if row == db.fetch_results():
+      ...
 
 Personally, I have never made this mistake. It seems far more like a theoretical
 mistake that could plausibly happen than one that actually happens and warrants
@@ -56,24 +56,24 @@ removing features, as was chosen in Python.
 Anyways, the let function in this module gives you something very close to that
 ability in other languages. A few examples:
 
-.. code-block:: python
+.. code:: python
 
-    if let(name = longInstanceName.longAttributeName):
-        ...
+  if let(name = longInstanceName.longAttributeName):
+      ...
 
-    # Yes, db.fetch_results() should just return a generator. No, it doesn't.
-    while let(results = db.fetch_results()):
-        ...
+  # Yes, db.fetch_results() should just return a generator. No, it doesn't.
+  while let(results = db.fetch_results()):
+      ...
 
-    if let(count = len(nameValuePair)) != 1:
-        raise Exception(f"Bad amount: {count}")
+  if let(count = len(nameValuePair)) != 1:
+      raise Exception(f"Bad amount: {count}")
 
 Installation
 ============
 
 Prerequisites:
 
-+ Python 3.10 or higher
++ Python 3.11 or higher
 
   * https://www.python.org/
 
