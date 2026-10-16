@@ -2,7 +2,9 @@
 # Copyright (c) 2016 Adam Karpierz
 # SPDX-License-Identifier: MIT
 
-__all__ = ('let',)
+from __future__ import annotations
+
+__all__ = ("let",)
 
 from typing import Any
 import sys

@@ -1,6 +1,8 @@
 # Copyright (c) 2016 Adam Karpierz
 # SPDX-License-Identifier: MIT
 
+from __future__ import annotations
+
 import unittest
 
 import let
